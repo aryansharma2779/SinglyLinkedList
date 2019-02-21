@@ -8,9 +8,17 @@ public class SinglyLinkedList {
 
 
     //method to insert a new node at the head
+public void insert(int value){
+head=new Node(value,head);
+
+}
+
+
     public static void main(String[] args) {
         SinglyLinkedList linkedList;
         linkedList = new SinglyLinkedList();
+
+
 
     }
 

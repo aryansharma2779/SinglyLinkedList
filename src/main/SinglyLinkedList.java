@@ -4,8 +4,15 @@ public class SinglyLinkedList {
 
 
     private Node head=null;
-    private int size;
+    private int size=0;
 
+
+    //method to insert a new node at the head
+    public static void main(String[] args) {
+        SinglyLinkedList linkedList;
+        linkedList = new SinglyLinkedList();
+
+    }
 
 private static class Node{
 private int data;

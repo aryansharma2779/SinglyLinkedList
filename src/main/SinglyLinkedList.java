@@ -13,6 +13,20 @@ head=new Node(value,head);
 
 }
 
+public String toString(){
+    StringBuilder result=new StringBuilder();
+Node temp=head;
+while(temp!=null)
+{
+    result.append(temp.data);
+    if(temp.next!=null){
+        result.append("==>");
+    }
+    temp=temp.next;
+}
+    return result.toString();
+}
+
 
     public static void main(String[] args) {
         SinglyLinkedList linkedList;

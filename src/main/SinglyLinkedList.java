@@ -12,6 +12,13 @@ public void insert(int value){
 head=new Node(value,head);
 size++;
 }
+//method to insert a mew node after a node
+    public void insert(int value,Node node)
+    {
+        node.next=new Node(value,node.next);
+        size++;
+    }
+
 
 public String toString(){
     StringBuilder result=new StringBuilder();

@@ -31,7 +31,8 @@ while(temp!=null)
     public static void main(String[] args) {
         SinglyLinkedList linkedList;
         linkedList = new SinglyLinkedList();
-
+        linkedList.insert(15);
+        System.out.println(linkedList);
 
 
     }

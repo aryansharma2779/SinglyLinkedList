@@ -8,17 +8,23 @@ public class SinglyLinkedList {
 
 
     //method to insert a new node at the head
-public void insert(int value){
+public void inserthead(int value){
 head=new Node(value,head);
 size++;
 }
 //method to insert a mew node after a node
-    public void insert(int value,Node node)
+    public void insertafter(int value,Node node)
     {
         node.next=new Node(value,node.next);
         size++;
     }
 
+    public void insert(int data){
+    
+    
+    
+    
+    }
 
 public String toString(){
     StringBuilder result=new StringBuilder();
